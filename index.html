@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт группы</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/login-popup.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <img class="site-logo" src="img/logo.svg" alt="Логотип">
+            <ul class="site-menu">
+                <li><a class="menu-link active-link" href="#">Главная</a></li>
+                <li><a class="menu-link" href="pages/students.html">Студенты</a></li>
+                <li><a class="menu-link" href="pages/about.html">О курсе</a></li>
+                <li><a class="menu-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+            <a class="lodin-button" href="login.html">Войти</a>
+            <div class="login-popup show-popup">
+                <h2 class="lodin-heading">Войти на сайт</h2>
+                <form class="lodin-form" action="" method="GET">
+                    <input class="lodin-input" name="login" type="text" placeholder="Логин" required=""> 
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="" >
+                    <button class="popup-button" type="submit">Войти</button>
+                </form>
+            </div>
+    </header>
+    <main class="main">
+        <h1 class="main-headind">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img class="class-photo" src="img/class.png" alt="Компьютерный класс" width="523" height="316">
+        <h2>Для кого этот курс</h2>
+    <div class="paragraphly1">
+        <div class="div1">
+            <p class="intro-text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты. <br> 
+            Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
+        </div>
+        <div class="div2">
+            <aside>
+                <blockquote class="slogan">
+                &#8220;Учимся <br> вместе!&#8221;
+                </blockquote>
+            </aside> 
+        </div> 
+    </div>
+        <h2>Чему вы научитесь</h2>
+        <p class="intro-text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <strong> HTML </strong>,<strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+    
+    </main>
+    <footer class="footer">
+        <p class="copy-write">2022 &copy; <a  class="inop-link" href="https://innopolis.ru/">Иннополис</a> </p>
+    </footer>
+</body>
+</html>
